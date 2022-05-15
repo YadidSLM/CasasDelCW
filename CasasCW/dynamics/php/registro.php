@@ -31,3 +31,11 @@
 </body>
 
 </html>
+
+    //Petición
+
+    $peticion = "INSERT INTO usuario2 VALUES ('$Apodo','$Nombre','$casas')";
+    $query = mysqli_query($conexion, $peticion);
+    var_dump($query);
+
+?>
