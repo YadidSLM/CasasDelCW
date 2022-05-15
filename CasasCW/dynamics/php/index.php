@@ -9,6 +9,7 @@
     if($Usuario !== false) {
         $_SESSION["Usuario"] = $Usuario;
         echo "El usuario es: ".$_SESSION["Usuario"];
+        echo "<br/>";
         echo "
             <form action='./cerrarSesion.php' method='post' target='_self'>
                 <button>
